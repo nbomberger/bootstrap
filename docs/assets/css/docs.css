@@ -263,8 +263,17 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   display: inline-block;
   padding: 5px 8px;
   line-height: 1;
+  vertical-align: top;
   *display: inline;
   *zoom: 1;
+}
+.bs-docs-social-buttons li .btn {
+  padding-top: 1px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.bs-docs-social-buttons .mailchimp-btn i {
+  color: #666;
 }
 
 /* Subhead (other pages)
@@ -934,6 +943,17 @@ form.bs-docs-example {
 }
 
 
+/* Ribbons and ads
+---------------------- */
+#catincan-ribbon {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 40px;
+    left: 0px;
+    width: 192px;
+    height: 198px;
+}
 
 
 /* Responsive
@@ -950,6 +970,10 @@ form.bs-docs-example {
   }
   .bs-docs-sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+
+  #catincan-ribbon {
+    display: block;
   }
 }
 

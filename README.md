@@ -9,8 +9,6 @@ This version is extended by [Arnold Daniels](http://twitter.com/ArnoldDaniels) o
 
 To get started, checkout http://jasny.github.com/bootstrap!
 
-[Please consider donating](http://www.gofundme.com/2jjyqk) to make Jasny Bootstrap even better.
-
 ## Quick start
 
 Three quick start options are available:
@@ -27,17 +25,16 @@ For transparency and insight into our release cycle, and for striving to maintai
 
 Releases will be numbered with the following format:
 
-`<major>.<minor>.<patch>-j<jasny version>`
+`<major>.<minor>.<patch>-p<jasny version>`
 
 And constructed with the following guidelines:
 
-* Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
+* Breaking backward compatibility bumps the major
+* New additions without breaking backward compatibility bumps the minor
+* Bug fixes and misc changes bump the patch
+* Additionally the version for the Jasny extensions will simply be incremented with each release and is prefixed with a 'p'
 
 For more information on SemVer, please visit [http://semver.org/](http://semver.org/).
-
-Additionally the version for the Jasny extensions will simply be incremented with each release and is prefixed with a 'j'.
 
 
 ## Bug tracker
@@ -84,6 +81,8 @@ Should you encounter problems with installing dependencies or running the makefi
 ## Contributing
 
 Please submit all pull requests against *-wip branches. If your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the [Code Guide](http://github.com/mdo/code-guide), maintained by [Mark Otto](http://github.com/mdo).
+
+Don't have time to customize your own fork? You can consider [sponsoring a new feature](https://www.catincan.com/projects/close/jasny-bootstrap).
 
 Thanks!
 
